@@ -27,3 +27,36 @@ body {
   float: left;
 }
 
+.food{
+  background-color: red;
+  box-shadow: 0 0 10px pink;
+}
+
+.snakeBodyPixel{
+  background-color: green;
+  box-shadow: 0 0 5px greenyellow;
+}
+
+#scoreContainer{
+  width: 40vw;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+
+.scoreboard{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  border-radius: 10px;
+  border: solid 5px lightblue;
+  color: aliceblue;
+  background-color: black;
+  display: inline-block;
+  padding: 6px;
+  max-width: 60%;
+  box-shadow: 0px 0px 20px 3px black; 
+}
+
+#onScreenControllers{
+  display: none;
+}
