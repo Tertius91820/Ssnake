@@ -128,7 +128,6 @@ const moveSnake = () => {
 
 //Call initial functions to create board and start game
 createGameBoardPixels();
-
 createFood();
 
 //Set animation speed
